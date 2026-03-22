@@ -1,0 +1,19 @@
+# History and generated quizzes
+data/history.json
+quizzes/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
