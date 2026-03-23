@@ -23,16 +23,20 @@ def save_history(history: dict) -> None:
         json.dump(history, f, indent=2)
 
 
+
+    
+
+
 if __name__ == "__main__":
     history = load_history()
     print("History:", history)
 
     # simulate saving today's entry
-    from datetime import date
-    history[date.today().isoformat()] = {
-        "topics": "Backpropagation",
-        "leetcode_python": "Two Sum",
-        "leetcode_sql": "Rank Scores"
-    }
-    save_history(history)
-    print("Saved. Check data/history.json")
+#     from datetime import date
+#     history[date.today().isoformat()] = {
+#     "topics": ["Backpropagation"],
+#     "leetcode_python": ["Two Sum"],
+#     "leetcode_sql": ["Rank Scores"]
+# }
+    # save_history(history)
+    # print("Saved. Check data/history.json")
